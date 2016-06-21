@@ -1,0 +1,20 @@
+set t_Co=256
+set nocompatible
+filetype indent plugin on
+syntax on
+colo desert
+set showcmd
+set backspace=indent,eol,start
+set colorcolumn=80
+set tabstop=8
+set shiftwidth=8
+set softtabstop=8
+set noexpandtab
+set nu
+set list
+set listchars=trail:·,tab:»\ ,eol:$
+set tags=tags;/
+syn keyword cOperator likely unlikely
+syn keyword cType u8 u16 u32 u64 s8 s16 s32 s64
+syn keyword cType __u8 __u16 __u32 __u64 __s8 __s16 __s32 __s64
+nnoremap Q <Nop>
