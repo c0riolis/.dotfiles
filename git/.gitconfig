@@ -14,5 +14,6 @@
     ap = add -p
     cm = commit -m
     st = status
+    can = commit --amend --no-edit
 [color]
     ui = auto
