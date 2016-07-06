@@ -80,9 +80,9 @@ export PAGER='most'
 # Aliases
 alias please="sudo"
 alias fuckin="sudo"
-alias ls="ls --color=always"
-alias grep="grep --color=always"
-alias egrep="egrep --color=always"
+alias ls="ls --color=auto"
+alias grep="grep --color=auto"
+alias egrep="egrep --color=auto"
 alias sl="ls"
 alias ll="ls -Alh"
 alias rson="redshift -O 3400K"
