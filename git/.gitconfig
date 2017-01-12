@@ -15,5 +15,6 @@
     cm = commit -m
     st = status
     can = commit --amend --no-edit
+    pom = push origin master
 [color]
     ui = auto
