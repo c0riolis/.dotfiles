@@ -77,6 +77,7 @@ export LANG=en_US.UTF-8
 export EDITOR='vim'
 export PAGER='most'
 export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
 
 # Aliases
 alias please="sudo"
