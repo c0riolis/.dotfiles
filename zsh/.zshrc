@@ -76,6 +76,7 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 export LANG=en_US.UTF-8
 export EDITOR='vim'
 export PAGER='most'
+export GOPATH=$HOME/go
 
 # Aliases
 alias please="sudo"
