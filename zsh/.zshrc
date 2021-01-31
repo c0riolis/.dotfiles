@@ -70,7 +70,6 @@ fi
 autoload -U promptinit
 promptinit
 prompt adam2 8bit magenta green red white
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Var defs
 export LANG=en_US.UTF-8
